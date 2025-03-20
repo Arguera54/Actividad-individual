@@ -1,0 +1,70 @@
+body{
+
+    background-color: #E2E0E0;
+}
+
+
+
+nav img{
+
+    width: 200px;
+}
+
+.card{
+
+        margin: 20px;
+        width: 300px;
+        border-radius: 20PX;
+        overflow: hidden;
+        box-shadow: 0px 5px 10px #0f0c0c;
+        font-family: "Playfair Display", serif;
+  
+}
+
+.card img{
+
+    width:100% ;
+}
+
+
+.Card-content{
+    
+    padding: 35px;
+}
+
+.card h1{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+
+}
+
+.card h2{
+
+    font-size: 15px;
+}
+
+
+.tarjeta{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.card:hover{
+
+    background-color: dimgrey;
+    transform: scale(1.05);
+
+}
+
+.card .footer{
+
+    padding: 25px;
+    text-align: center;
+}
+.footer a{
+
+    text-decoration: none;
+}
